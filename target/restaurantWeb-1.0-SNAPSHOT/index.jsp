@@ -15,8 +15,11 @@
         <h1>Restaurant menu</h1>
         <div class="btns-container">
             <h2 class="title-menu">Select a menu</h2>
-            <button class="btn">Tipicos Paisas</button>
-            <button class="btn">Típicos Colombianos</button>
+            <form method="GET" action="SvMenu">
+                <button name="button" value="paisa" class="btn" type="submit">Tipicos Paisas</button>
+                <button name="button" value="colombiano" class="btn" type="submit">Típicos Colombianos</button>    
+            </form>
+           
         </div>
     </body>
 </html>

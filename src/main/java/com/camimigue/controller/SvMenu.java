@@ -58,6 +58,9 @@ public class SvMenu extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
+        String btnValue = request.getParameter("button");
+        
+        
     }
 
     /**
