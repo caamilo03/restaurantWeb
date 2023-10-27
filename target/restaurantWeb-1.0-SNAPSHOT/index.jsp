@@ -8,6 +8,8 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="Styles/style.css" />
     </head>
     <body>
         <h1>Restaurant menu</h1>
@@ -20,7 +22,7 @@
 
         </div>
         <section class="menu-section hidden">
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img class="card-img-top" src="https://www.mycolombianrecipes.com/wp-content/uploads/2013/11/Sancocho-trifasico.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -29,7 +31,7 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img class="card-img-top" src="https://www.mycolombianrecipes.com/wp-content/uploads/2013/11/Sancocho-trifasico.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
@@ -38,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="card" style="width: 18rem;">
+            <div class="card">
                 <img class="card-img-top" src="https://www.mycolombianrecipes.com/wp-content/uploads/2013/11/Sancocho-trifasico.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title">Card title</h5>
