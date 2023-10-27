@@ -1,7 +1,5 @@
 <%-- 
     Document   : index
-    Created on : 27/10/2023, 3:05:07 p. m.
-    Author     : jcami
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -23,4 +21,3 @@
         </div>
     </body>
 </html>
-
