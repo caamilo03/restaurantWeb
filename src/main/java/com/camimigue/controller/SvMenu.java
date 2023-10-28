@@ -4,8 +4,11 @@
  */
 package com.camimigue.controller;
 
+import com.camimigue.model.Loader;
+import com.camimigue.model.Menus;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.List;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -59,6 +62,11 @@ public class SvMenu extends HttpServlet {
             throws ServletException, IOException {
         processRequest(request, response);
         String btnValue = request.getParameter("button");
+        Loader loader = new Loader();
+        loader.loadByCategory(btnValue);
+        List<Menus> menusFood = loader.getLstMenus();
+        
+        
         
         
     }
