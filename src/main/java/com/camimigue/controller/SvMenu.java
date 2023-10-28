@@ -14,6 +14,7 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 /**
  *
@@ -65,6 +66,12 @@ public class SvMenu extends HttpServlet {
         Loader loader = new Loader();
         loader.loadByCategory(btnValue);
         List<Menus> menusFood = loader.getLstMenus();
+        HttpSession mySession = request.getSession();
+        mySession.setAttribute("lstMenu", menusFood);
+        //response.sendRedirect("/restaurantWeb/index.jsp");
+        this.getServletContext().getRequestDispatcher("/WEB-INF/index.jsp").forward(request, response);
+        
+        
         
         
         
