@@ -43,7 +43,7 @@ public class Loader {
             String reader = readFileFromResources("menus.json");
             this.lstMenus = gson.fromJson(reader, new TypeToken<ArrayList<Menus>>() {
             }.getType());
-            System.out.println(Arrays.toString(lstMenus.toArray()));
+            System.out.println(lstMenus.get(0).getName());
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
         } catch (IOException e) {

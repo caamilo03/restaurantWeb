@@ -1,60 +1,60 @@
 [
   {
-    "url Image": "https://www.recetasnestle.com.co/sites/default/files/srh_recipes/f78cf6630b31638994b09b3b470b085c.jpg",
+    "urlImage": "https://www.recetasnestle.com.co/sites/default/files/srh_recipes/f78cf6630b31638994b09b3b470b085c.jpg",
     "name": "Ajiaco",
     "description": "A traditional Colombian soup made with chicken, corn, and potatoes.",
     "category": "colombiano"
   },
   {
-    "url Image": "https://i0.wp.com/menuacapulco.com/wp-content/uploads/2023/04/BANDEJA-PAISA.jpeg",
+    "urlImage": "https://i0.wp.com/menuacapulco.com/wp-content/uploads/2023/04/BANDEJA-PAISA.jpeg",
     "name": "Bandeja Paisa",
     "description": "A hearty dish consisting of beans, rice, ground beef, chorizo, fried egg, plantains, and avocado.",
     "category": "paisa"
   },
   {
-    "url Image": "https://media.scoolinary.app/recipes/images/2023/03/arepa-de-arriero.jpg",
+    "urlImage": "https://media.scoolinary.app/recipes/images/2023/03/arepa-de-arriero.jpg",
     "name": "Arepa de arriero ",
     "description": "A flatbread made from ground maize dough or cooked flour.",
     "category": "paisa"
   },
   {
-    "url Image": "https://handletheheat.com/wp-content/uploads/2022/06/beef-empanada-recipe-SQUARE-550x550.jpg",
+    "urlImage": "https://handletheheat.com/wp-content/uploads/2022/06/beef-empanada-recipe-SQUARE-550x550.jpg",
     "name": "Empanadas",
     "description": "Fried or baked pastries filled with meat, cheese, or vegetables.",
     "category": "colombiano"
   },
   {
-    "url Image": "https://www.gourmet.com.co/wp-content/uploads/2021/04/patacones.jpg",
+    "urlImage": "https://www.gourmet.com.co/wp-content/uploads/2021/04/patacones.jpg",
     "name": "Patacones",
     "description": "Fried green plantains often served as a side dish.",
     "category": "colombiano"
   },
   {
-    "url Image": "https://cdn.colombia.com/gastronomia/2011/07/22/lechona-1476.jpg",
+    "urlImage": "https://cdn.colombia.com/gastronomia/2011/07/22/lechona-1476.jpg",
     "name": "Lechona",
     "description": "A whole roasted pig stuffed with rice, peas, and spices.",
     "category": "colombiano"
   },
   {
-    "url Image": "https://cdn7.kiwilimon.com/brightcove/7752/640x640/7752.jpg.webp",
+    "urlImage": "https://cdn7.kiwilimon.com/brightcove/7752/640x640/7752.jpg.webp",
     "name": "Sancocho",
     "description": "A thick soup made with meat, vegetables, and herbs.",
     "category": "colombiano"
   },
   {
-    "url Image": "https://www.recetasnestle.com.co/sites/default/files/srh_recipes/8530c5f4d34a92cbcdc22c3c9ce74251.jpg",
+    "urlImage": "https://www.recetasnestle.com.co/sites/default/files/srh_recipes/8530c5f4d34a92cbcdc22c3c9ce74251.jpg",
     "name": "Mazamorra",
     "description": "A thick and sweet corn pudding.",
     "category": "paisa"
   },
   {
-    "url Image": "https://recetasdemitierra.net/wp-content/uploads/2020/06/pandequeso.jpg",
+    "urlImage": "https://recetasdemitierra.net/wp-content/uploads/2020/06/pandequeso.jpg",
     "name": "Pandequeso",
     "description": "A type of cheese bread made with yuca flour and cheese.",
     "category": "paisa"
   },
   {
-    "url Image": "https://www.comedera.com/wp-content/uploads/2022/03/fiambre-colombiano.png",
+    "urlImage": "https://www.comedera.com/wp-content/uploads/2022/03/fiambre-colombiano.png",
     "name": "Fiambre",
     "description": "It's a typical lunch wrapped in a banana leaf.",
     "category": "paisa"
