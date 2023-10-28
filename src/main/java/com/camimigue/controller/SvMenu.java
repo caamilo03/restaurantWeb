@@ -61,15 +61,14 @@ public class SvMenu extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
         String btnValue = request.getParameter("button");
         Loader loader = new Loader();
         loader.loadByCategory(btnValue);
         List<Menus> menusFood = loader.getLstMenus();
         HttpSession mySession = request.getSession();
         mySession.setAttribute("lstMenu", menusFood);
-        //response.sendRedirect("/restaurantWeb/index.jsp");
-        this.getServletContext().getRequestDispatcher("/WEB-INF/index.jsp").forward(request, response);
+        response.sendRedirect("showMenu.jsp");
+        
         
         
         
