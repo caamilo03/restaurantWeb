@@ -14,6 +14,12 @@
         <link rel="stylesheet" href="Styles/style.css" />
     </head>
     <body>
+        <div class="fixed">
+            <form action="SvMenu" method="POST">
+                <button class="btn" type="submit"> Exit </button>
+
+            </form>
+        </div>
         <section class="menu-section">
             <%  List<Menus> lstMenu = (List) request.getSession().getAttribute("lstMenu");
                 if (lstMenu != null) {
@@ -21,16 +27,18 @@
 
             %>
             <div class="card">
-                <img class="card-img-top" src= "<%= menu.getUrlImage() %>" alt="Card image cap">
+                <img class="card-img-top" src= "<%= menu.getUrlImage()%>" alt="Card image cap">
                 <div class="card-body">
-                    <h5 class="card-title"><%= menu.getName() %></h5>
-                    <p class="card-text"><%= menu.getDescription() %></p>
+                    <h5 class="card-title"><%= menu.getName()%></h5>
+                    <p class="card-text"><%= menu.getDescription()%></p>
                 </div>
             </div>
             <%                            }
-                        };%>
+                };%>
 
 
         </section>
+
+
     </body>
 </html>

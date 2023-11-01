@@ -67,6 +67,7 @@ public class SvMenu extends HttpServlet {
         List<Menus> menusFood = loader.getLstMenus();
         HttpSession mySession = request.getSession();
         mySession.setAttribute("lstMenu", menusFood);
+        System.out.println(btnValue);
         response.sendRedirect("showMenu.jsp");
         
         
@@ -88,7 +89,7 @@ public class SvMenu extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        processRequest(request, response);
+        response.sendRedirect("index.html");
     }
 
     /**
@@ -99,6 +100,6 @@ public class SvMenu extends HttpServlet {
     @Override
     public String getServletInfo() {
         return "Short description";
-    }// </editor-fold>
+    }
 
 }

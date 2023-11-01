@@ -6,18 +6,13 @@ package com.camimigue.model;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.Reader;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -40,15 +35,24 @@ public class Loader {
 
     public void loadByCategory(String category) {
         try {
+            List<Menus> tempMenus = new ArrayList<>();
+
             String reader = readFileFromResources("menus.json");
-            this.lstMenus = gson.fromJson(reader, new TypeToken<ArrayList<Menus>>() {
+            tempMenus = gson.fromJson(reader, new TypeToken<ArrayList<Menus>>() {
             }.getType());
-            System.out.println(lstMenus.get(0).getName());
+            for (Menus menu : tempMenus) {
+                String tempString = menu.getCategory();
+                if (tempString.equals(category)) {
+                    this.lstMenus.add(menu);
+
+                }
+            }
+            System.out.println(lstMenus.size());
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
         } catch (IOException e) {
             System.out.println("Error to open file");
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println("Error to open file");
         }
 
